@@ -1,0 +1,915 @@
+7.7946 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+41.3293 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+46.7589 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002AF63C2FD30>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002AF68B7BD60>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+46.7591 	EXP 	window1: mouseVisible = True
+46.7593 	EXP 	window1: mouseVisible = False
+46.7593 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+46.7594 	EXP 	window1: recordFrameIntervals = False
+46.9241 	EXP 	window1: recordFrameIntervals = True
+47.1079 	EXP 	Screen (0) actual frame rate measured at 60.05Hz
+47.1080 	EXP 	window1: recordFrameIntervals = False
+54.3900 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+54.5667 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([0.3, 0.3, 0.3]), colorSpace='rgb', contrast=0.3, depth=-1.0, interpolate=True, mask='gauss', maskParams=None, name='grating', opacity=1.0, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([5., 5.]), size=array([0.2, 0.2]), tex='sin', texRes=128.0, units='height', win=Window(...))
+54.6455 	EXP 	Created sequence: random, trialTypes=1, nReps=100, seed=None
+54.6469 	EXP 	New trial (rep=0, index=0): None
+54.7532 	EXP 	grating: ori = 0.0
+54.7532 	EXP 	polygon: autoDraw = True
+55.7134 	EXP 	grating: autoDraw = True
+55.7134 	EXP 	grating: tex = 'sin'
+55.7661 	EXP 	polygon: autoDraw = False
+56.0158 	EXP 	grating: autoDraw = False
+56.2545 	EXP 	New trial (rep=1, index=0): None
+56.2578 	DATA 	Keypress: up
+56.2601 	EXP 	polygon: autoDraw = False
+56.2601 	EXP 	grating: autoDraw = False
+56.2601 	EXP 	grating: ori = 0.0
+56.2601 	EXP 	polygon: autoDraw = True
+57.2646 	EXP 	polygon: autoDraw = False
+57.2646 	EXP 	grating: autoDraw = True
+57.5640 	EXP 	grating: autoDraw = False
+57.9026 	EXP 	New trial (rep=2, index=0): None
+57.9067 	DATA 	Keypress: up
+57.9139 	EXP 	polygon: autoDraw = False
+57.9139 	EXP 	grating: autoDraw = False
+57.9139 	EXP 	grating: ori = 0.0
+57.9139 	EXP 	polygon: autoDraw = True
+58.9131 	EXP 	polygon: autoDraw = False
+58.9131 	EXP 	grating: autoDraw = True
+59.2125 	EXP 	grating: autoDraw = False
+59.4163 	EXP 	New trial (rep=3, index=0): None
+59.4186 	DATA 	Keypress: up
+59.4290 	EXP 	polygon: autoDraw = False
+59.4290 	EXP 	grating: autoDraw = False
+59.4290 	EXP 	grating: ori = 2.0
+59.4290 	EXP 	polygon: autoDraw = True
+60.4284 	EXP 	polygon: autoDraw = False
+60.4284 	EXP 	grating: autoDraw = True
+60.7279 	EXP 	grating: autoDraw = False
+60.9671 	EXP 	New trial (rep=4, index=0): None
+60.9726 	DATA 	Keypress: down
+60.9776 	EXP 	polygon: autoDraw = False
+60.9776 	EXP 	grating: autoDraw = False
+60.9776 	EXP 	grating: ori = 0.0
+60.9776 	EXP 	polygon: autoDraw = True
+61.9769 	EXP 	polygon: autoDraw = False
+61.9769 	EXP 	grating: autoDraw = True
+62.2764 	EXP 	grating: autoDraw = False
+62.7814 	EXP 	New trial (rep=5, index=0): None
+62.7849 	DATA 	Keypress: up
+62.7929 	EXP 	polygon: autoDraw = False
+62.7929 	EXP 	grating: autoDraw = False
+62.7929 	EXP 	grating: ori = 0.0
+62.7929 	EXP 	polygon: autoDraw = True
+63.7920 	EXP 	grating: autoDraw = True
+63.8086 	EXP 	polygon: autoDraw = False
+64.0917 	EXP 	grating: autoDraw = False
+64.4110 	DATA 	Keypress: up
+64.4304 	EXP 	New trial (rep=6, index=0): None
+64.4414 	EXP 	polygon: autoDraw = False
+64.4414 	EXP 	grating: autoDraw = False
+64.4414 	EXP 	grating: ori = 2.0
+64.4414 	EXP 	polygon: autoDraw = True
+65.4404 	EXP 	grating: autoDraw = True
+65.4570 	EXP 	polygon: autoDraw = False
+65.7401 	EXP 	grating: autoDraw = False
+65.9619 	EXP 	New trial (rep=7, index=0): None
+65.9661 	DATA 	Keypress: down
+65.9730 	EXP 	polygon: autoDraw = False
+65.9730 	EXP 	grating: autoDraw = False
+65.9730 	EXP 	grating: ori = 0.0
+65.9730 	EXP 	polygon: autoDraw = True
+66.9721 	EXP 	polygon: autoDraw = False
+66.9721 	EXP 	grating: autoDraw = True
+67.2720 	EXP 	grating: autoDraw = False
+67.4438 	EXP 	New trial (rep=8, index=0): None
+67.4480 	DATA 	Keypress: up
+67.4549 	EXP 	polygon: autoDraw = False
+67.4549 	EXP 	grating: autoDraw = False
+67.4549 	EXP 	grating: ori = 0.0
+67.4549 	EXP 	polygon: autoDraw = True
+68.4543 	EXP 	polygon: autoDraw = False
+68.4543 	EXP 	grating: autoDraw = True
+68.7540 	EXP 	grating: autoDraw = False
+69.1084 	EXP 	New trial (rep=9, index=0): None
+69.1123 	DATA 	Keypress: up
+69.1201 	EXP 	polygon: autoDraw = False
+69.1201 	EXP 	grating: autoDraw = False
+69.1201 	EXP 	grating: ori = 3.0
+69.1201 	EXP 	polygon: autoDraw = True
+70.1195 	EXP 	polygon: autoDraw = False
+70.1195 	EXP 	grating: autoDraw = True
+70.4190 	EXP 	grating: autoDraw = False
+70.8912 	EXP 	New trial (rep=10, index=0): None
+70.8946 	DATA 	Keypress: down
+70.9019 	EXP 	polygon: autoDraw = False
+70.9019 	EXP 	grating: autoDraw = False
+70.9019 	EXP 	grating: ori = 0.0
+70.9019 	EXP 	polygon: autoDraw = True
+71.9011 	EXP 	polygon: autoDraw = False
+71.9011 	EXP 	grating: autoDraw = True
+72.2006 	EXP 	grating: autoDraw = False
+72.4881 	EXP 	New trial (rep=11, index=0): None
+72.4911 	DATA 	Keypress: up
+72.5002 	EXP 	polygon: autoDraw = False
+72.5002 	EXP 	grating: autoDraw = False
+72.5002 	EXP 	grating: ori = 0.0
+72.5002 	EXP 	polygon: autoDraw = True
+73.4997 	EXP 	polygon: autoDraw = False
+73.4997 	EXP 	grating: autoDraw = True
+73.7993 	EXP 	grating: autoDraw = False
+74.1214 	EXP 	New trial (rep=12, index=0): None
+74.1265 	DATA 	Keypress: up
+74.1323 	EXP 	polygon: autoDraw = False
+74.1323 	EXP 	grating: autoDraw = False
+74.1323 	EXP 	grating: ori = 2.0
+74.1323 	EXP 	polygon: autoDraw = True
+75.1315 	EXP 	polygon: autoDraw = False
+75.1315 	EXP 	grating: autoDraw = True
+75.4310 	EXP 	grating: autoDraw = False
+75.8364 	EXP 	New trial (rep=13, index=0): None
+75.8399 	DATA 	Keypress: down
+75.8472 	EXP 	polygon: autoDraw = False
+75.8472 	EXP 	grating: autoDraw = False
+75.8472 	EXP 	grating: ori = 0.0
+75.8472 	EXP 	polygon: autoDraw = True
+76.8465 	EXP 	polygon: autoDraw = False
+76.8465 	EXP 	grating: autoDraw = True
+77.1462 	EXP 	grating: autoDraw = False
+77.4483 	DATA 	Keypress: up
+77.4680 	EXP 	New trial (rep=14, index=0): None
+77.4792 	EXP 	polygon: autoDraw = False
+77.4792 	EXP 	grating: autoDraw = False
+77.4792 	EXP 	grating: ori = 2.0
+77.4792 	EXP 	polygon: autoDraw = True
+78.4781 	EXP 	polygon: autoDraw = False
+78.4781 	EXP 	grating: autoDraw = True
+78.7777 	EXP 	grating: autoDraw = False
+79.3661 	EXP 	New trial (rep=15, index=0): None
+79.3689 	DATA 	Keypress: down
+79.3771 	EXP 	polygon: autoDraw = False
+79.3771 	EXP 	grating: autoDraw = False
+79.3771 	EXP 	grating: ori = 1.0
+79.3771 	EXP 	polygon: autoDraw = True
+80.3763 	EXP 	grating: autoDraw = True
+80.3930 	EXP 	polygon: autoDraw = False
+80.6758 	EXP 	grating: autoDraw = False
+81.1614 	EXP 	New trial (rep=16, index=0): None
+81.1629 	DATA 	Keypress: up
+81.1754 	EXP 	polygon: autoDraw = False
+81.1754 	EXP 	grating: autoDraw = False
+81.1754 	EXP 	grating: ori = -5.0
+81.1754 	EXP 	polygon: autoDraw = True
+82.1747 	EXP 	polygon: autoDraw = False
+82.1747 	EXP 	grating: autoDraw = True
+82.4742 	EXP 	grating: autoDraw = False
+83.0306 	EXP 	New trial (rep=17, index=0): None
+83.0339 	DATA 	Keypress: down
+83.0405 	EXP 	polygon: autoDraw = False
+83.0405 	EXP 	grating: autoDraw = False
+83.0405 	EXP 	grating: ori = 0.0
+83.0405 	EXP 	polygon: autoDraw = True
+84.0397 	EXP 	polygon: autoDraw = False
+84.0397 	EXP 	grating: autoDraw = True
+84.3394 	EXP 	grating: autoDraw = False
+84.8110 	EXP 	New trial (rep=18, index=0): None
+84.8141 	DATA 	Keypress: up
+84.8222 	EXP 	polygon: autoDraw = False
+84.8222 	EXP 	grating: autoDraw = False
+84.8222 	EXP 	grating: ori = 2.0
+84.8222 	EXP 	polygon: autoDraw = True
+85.8213 	EXP 	grating: autoDraw = True
+85.8380 	EXP 	polygon: autoDraw = False
+86.1209 	EXP 	grating: autoDraw = False
+87.1087 	EXP 	New trial (rep=19, index=0): None
+87.1124 	DATA 	Keypress: up
+87.1202 	EXP 	polygon: autoDraw = False
+87.1202 	EXP 	grating: autoDraw = False
+87.1202 	EXP 	grating: ori = 4.0
+87.1202 	EXP 	polygon: autoDraw = True
+88.1193 	EXP 	polygon: autoDraw = False
+88.1193 	EXP 	grating: autoDraw = True
+88.4189 	EXP 	grating: autoDraw = False
+88.8212 	EXP 	New trial (rep=20, index=0): None
+88.8228 	DATA 	Keypress: down
+88.8349 	EXP 	polygon: autoDraw = False
+88.8349 	EXP 	grating: autoDraw = False
+88.8349 	EXP 	grating: ori = 0.0
+88.8349 	EXP 	polygon: autoDraw = True
+89.8344 	EXP 	polygon: autoDraw = False
+89.8344 	EXP 	grating: autoDraw = True
+90.1341 	EXP 	grating: autoDraw = False
+90.4864 	EXP 	New trial (rep=21, index=0): None
+90.4885 	DATA 	Keypress: up
+90.5001 	EXP 	polygon: autoDraw = False
+90.5001 	EXP 	grating: autoDraw = False
+90.5001 	EXP 	grating: ori = 0.0
+90.5001 	EXP 	polygon: autoDraw = True
+91.4997 	EXP 	polygon: autoDraw = False
+91.4997 	EXP 	grating: autoDraw = True
+91.7991 	EXP 	grating: autoDraw = False
+92.1205 	EXP 	New trial (rep=22, index=0): None
+92.1243 	DATA 	Keypress: up
+92.1320 	EXP 	polygon: autoDraw = False
+92.1320 	EXP 	grating: autoDraw = False
+92.1320 	EXP 	grating: ori = 0.0
+92.1320 	EXP 	polygon: autoDraw = True
+93.1312 	EXP 	polygon: autoDraw = False
+93.1312 	EXP 	grating: autoDraw = True
+93.4313 	EXP 	grating: autoDraw = False
+94.0020 	EXP 	New trial (rep=23, index=0): None
+94.0052 	DATA 	Keypress: up
+94.0139 	EXP 	polygon: autoDraw = False
+94.0139 	EXP 	grating: autoDraw = False
+94.0139 	EXP 	grating: ori = 3.0
+94.0139 	EXP 	polygon: autoDraw = True
+95.0128 	EXP 	polygon: autoDraw = False
+95.0128 	EXP 	grating: autoDraw = True
+95.3125 	EXP 	grating: autoDraw = False
+95.7009 	EXP 	New trial (rep=24, index=0): None
+95.7042 	DATA 	Keypress: down
+95.7123 	EXP 	polygon: autoDraw = False
+95.7123 	EXP 	grating: autoDraw = False
+95.7123 	EXP 	grating: ori = 0.0
+95.7123 	EXP 	polygon: autoDraw = True
+96.7114 	EXP 	grating: autoDraw = True
+96.7281 	EXP 	polygon: autoDraw = False
+97.0110 	EXP 	grating: autoDraw = False
+97.4326 	EXP 	New trial (rep=25, index=0): None
+97.4357 	DATA 	Keypress: up
+97.4440 	EXP 	polygon: autoDraw = False
+97.4440 	EXP 	grating: autoDraw = False
+97.4440 	EXP 	grating: ori = -3.0
+97.4440 	EXP 	polygon: autoDraw = True
+98.4432 	EXP 	grating: autoDraw = True
+98.4598 	EXP 	polygon: autoDraw = False
+98.7425 	EXP 	grating: autoDraw = False
+99.7278 	DATA 	Keypress: down
+99.7467 	EXP 	New trial (rep=26, index=0): None
+99.7582 	EXP 	polygon: autoDraw = False
+99.7582 	EXP 	grating: autoDraw = False
+99.7582 	EXP 	grating: ori = 0.0
+99.7582 	EXP 	polygon: autoDraw = True
+100.7575 	EXP 	polygon: autoDraw = False
+100.7575 	EXP 	grating: autoDraw = True
+101.0573 	EXP 	grating: autoDraw = False
+101.3789 	EXP 	New trial (rep=27, index=0): None
+101.3822 	DATA 	Keypress: up
+101.3901 	EXP 	polygon: autoDraw = False
+101.3901 	EXP 	grating: autoDraw = False
+101.3901 	EXP 	grating: ori = 4.0
+101.3901 	EXP 	polygon: autoDraw = True
+102.3896 	EXP 	polygon: autoDraw = False
+102.3896 	EXP 	grating: autoDraw = True
+102.6890 	EXP 	grating: autoDraw = False
+103.1108 	EXP 	New trial (rep=28, index=0): None
+103.1145 	DATA 	Keypress: down
+103.1219 	EXP 	polygon: autoDraw = False
+103.1219 	EXP 	grating: autoDraw = False
+103.1219 	EXP 	grating: ori = 3.0
+103.1219 	EXP 	polygon: autoDraw = True
+104.1211 	EXP 	polygon: autoDraw = False
+104.1211 	EXP 	grating: autoDraw = True
+104.4206 	EXP 	grating: autoDraw = False
+105.5892 	DATA 	Keypress: down
+105.6078 	EXP 	New trial (rep=29, index=0): None
+105.6199 	EXP 	polygon: autoDraw = False
+105.6199 	EXP 	grating: autoDraw = False
+105.6199 	EXP 	grating: ori = 0.0
+105.6199 	EXP 	polygon: autoDraw = True
+106.6187 	EXP 	grating: autoDraw = True
+106.6356 	EXP 	polygon: autoDraw = False
+106.9183 	EXP 	grating: autoDraw = False
+107.0541 	DATA 	Keypress: up
+107.0738 	EXP 	New trial (rep=30, index=0): None
+107.0849 	EXP 	polygon: autoDraw = False
+107.0849 	EXP 	grating: autoDraw = False
+107.0849 	EXP 	grating: ori = 3.0
+107.0849 	EXP 	polygon: autoDraw = True
+108.0838 	EXP 	polygon: autoDraw = False
+108.0838 	EXP 	grating: autoDraw = True
+108.3836 	EXP 	grating: autoDraw = False
+108.6865 	DATA 	Keypress: down
+108.7054 	EXP 	New trial (rep=31, index=0): None
+108.7168 	EXP 	polygon: autoDraw = False
+108.7168 	EXP 	grating: autoDraw = False
+108.7168 	EXP 	grating: ori = -5.0
+108.7168 	EXP 	polygon: autoDraw = True
+109.7160 	EXP 	polygon: autoDraw = False
+109.7160 	EXP 	grating: autoDraw = True
+110.0154 	EXP 	grating: autoDraw = False
+110.4374 	EXP 	New trial (rep=32, index=0): None
+110.4405 	DATA 	Keypress: down
+110.4485 	EXP 	polygon: autoDraw = False
+110.4485 	EXP 	grating: autoDraw = False
+110.4485 	EXP 	grating: ori = -3.0
+110.4485 	EXP 	polygon: autoDraw = True
+111.4480 	EXP 	polygon: autoDraw = False
+111.4480 	EXP 	grating: autoDraw = True
+111.7472 	EXP 	grating: autoDraw = False
+112.1692 	EXP 	New trial (rep=33, index=0): None
+112.1724 	DATA 	Keypress: down
+112.1803 	EXP 	polygon: autoDraw = False
+112.1803 	EXP 	grating: autoDraw = False
+112.1803 	EXP 	grating: ori = 3.0
+112.1803 	EXP 	polygon: autoDraw = True
+113.1795 	EXP 	grating: autoDraw = True
+113.1961 	EXP 	polygon: autoDraw = False
+113.4789 	EXP 	grating: autoDraw = False
+113.9172 	EXP 	New trial (rep=34, index=0): None
+113.9203 	DATA 	Keypress: down
+113.9286 	EXP 	polygon: autoDraw = False
+113.9286 	EXP 	grating: autoDraw = False
+113.9286 	EXP 	grating: ori = 0.0
+113.9286 	EXP 	polygon: autoDraw = True
+114.9279 	EXP 	polygon: autoDraw = False
+114.9279 	EXP 	grating: autoDraw = True
+115.2273 	EXP 	grating: autoDraw = False
+115.4331 	EXP 	New trial (rep=35, index=0): None
+115.4363 	DATA 	Keypress: up
+115.4439 	EXP 	polygon: autoDraw = False
+115.4439 	EXP 	grating: autoDraw = False
+115.4439 	EXP 	grating: ori = 0.0
+115.4439 	EXP 	polygon: autoDraw = True
+116.4430 	EXP 	polygon: autoDraw = False
+116.4430 	EXP 	grating: autoDraw = True
+116.7427 	EXP 	grating: autoDraw = False
+117.2142 	EXP 	New trial (rep=36, index=0): None
+117.2173 	DATA 	Keypress: up
+117.2256 	EXP 	polygon: autoDraw = False
+117.2256 	EXP 	grating: autoDraw = False
+117.2256 	EXP 	grating: ori = 3.0
+117.2256 	EXP 	polygon: autoDraw = True
+118.2248 	EXP 	grating: autoDraw = True
+118.2415 	EXP 	polygon: autoDraw = False
+118.5242 	EXP 	grating: autoDraw = False
+118.8929 	DATA 	Keypress: down
+118.9126 	EXP 	New trial (rep=37, index=0): None
+118.9240 	EXP 	polygon: autoDraw = False
+118.9240 	EXP 	grating: autoDraw = False
+118.9240 	EXP 	grating: ori = -5.0
+118.9240 	EXP 	polygon: autoDraw = True
+119.9231 	EXP 	grating: autoDraw = True
+119.9397 	EXP 	polygon: autoDraw = False
+120.2229 	EXP 	grating: autoDraw = False
+120.5625 	EXP 	New trial (rep=38, index=0): None
+120.5668 	DATA 	Keypress: down
+120.5723 	EXP 	polygon: autoDraw = False
+120.5723 	EXP 	grating: autoDraw = False
+120.5723 	EXP 	grating: ori = 1.0
+120.5723 	EXP 	polygon: autoDraw = True
+121.5714 	EXP 	polygon: autoDraw = False
+121.5714 	EXP 	grating: autoDraw = True
+121.8712 	EXP 	grating: autoDraw = False
+122.4595 	EXP 	New trial (rep=39, index=0): None
+122.4627 	DATA 	Keypress: up
+122.4708 	EXP 	polygon: autoDraw = False
+122.4708 	EXP 	grating: autoDraw = False
+122.4708 	EXP 	grating: ori = 0.0
+122.4708 	EXP 	polygon: autoDraw = True
+123.4699 	EXP 	grating: autoDraw = True
+123.4866 	EXP 	polygon: autoDraw = False
+123.7693 	EXP 	grating: autoDraw = False
+124.0245 	EXP 	New trial (rep=40, index=0): None
+124.0312 	DATA 	Keypress: up
+124.0359 	EXP 	polygon: autoDraw = False
+124.0359 	EXP 	grating: autoDraw = False
+124.0359 	EXP 	grating: ori = 0.0
+124.0359 	EXP 	polygon: autoDraw = True
+125.0352 	EXP 	grating: autoDraw = True
+125.0517 	EXP 	polygon: autoDraw = False
+125.3343 	EXP 	grating: autoDraw = False
+125.6227 	EXP 	New trial (rep=41, index=0): None
+125.6259 	DATA 	Keypress: up
+125.6340 	EXP 	polygon: autoDraw = False
+125.6340 	EXP 	grating: autoDraw = False
+125.6340 	EXP 	grating: ori = 0.0
+125.6340 	EXP 	polygon: autoDraw = True
+126.6334 	EXP 	polygon: autoDraw = False
+126.6334 	EXP 	grating: autoDraw = True
+126.9329 	EXP 	grating: autoDraw = False
+127.2712 	EXP 	New trial (rep=42, index=0): None
+127.2743 	DATA 	Keypress: up
+127.2828 	EXP 	polygon: autoDraw = False
+127.2828 	EXP 	grating: autoDraw = False
+127.2828 	EXP 	grating: ori = 0.0
+127.2828 	EXP 	polygon: autoDraw = True
+128.2819 	EXP 	polygon: autoDraw = False
+128.2819 	EXP 	grating: autoDraw = True
+128.5822 	EXP 	grating: autoDraw = False
+128.9042 	EXP 	New trial (rep=43, index=0): None
+128.9075 	DATA 	Keypress: up
+128.9148 	EXP 	polygon: autoDraw = False
+128.9148 	EXP 	grating: autoDraw = False
+128.9148 	EXP 	grating: ori = -2.0
+128.9148 	EXP 	polygon: autoDraw = True
+129.9140 	EXP 	grating: autoDraw = True
+129.9304 	EXP 	polygon: autoDraw = False
+130.2135 	EXP 	grating: autoDraw = False
+130.4685 	EXP 	New trial (rep=44, index=0): None
+130.4724 	DATA 	Keypress: down
+130.4800 	EXP 	polygon: autoDraw = False
+130.4800 	EXP 	grating: autoDraw = False
+130.4800 	EXP 	grating: ori = 3.0
+130.4800 	EXP 	polygon: autoDraw = True
+131.4790 	EXP 	polygon: autoDraw = False
+131.4790 	EXP 	grating: autoDraw = True
+131.7788 	EXP 	grating: autoDraw = False
+132.1006 	EXP 	New trial (rep=45, index=0): None
+132.1038 	DATA 	Keypress: down
+132.1116 	EXP 	polygon: autoDraw = False
+132.1116 	EXP 	grating: autoDraw = False
+132.1116 	EXP 	grating: ori = 1.0
+132.1116 	EXP 	polygon: autoDraw = True
+133.1109 	EXP 	polygon: autoDraw = False
+133.1109 	EXP 	grating: autoDraw = True
+133.4105 	EXP 	grating: autoDraw = False
+133.6826 	EXP 	New trial (rep=46, index=0): None
+133.6857 	DATA 	Keypress: up
+133.6940 	EXP 	polygon: autoDraw = False
+133.6940 	EXP 	grating: autoDraw = False
+133.6940 	EXP 	grating: ori = -5.0
+133.6940 	EXP 	polygon: autoDraw = True
+134.6927 	EXP 	grating: autoDraw = True
+134.7093 	EXP 	polygon: autoDraw = False
+134.9925 	EXP 	grating: autoDraw = False
+135.3981 	EXP 	New trial (rep=47, index=0): None
+135.4015 	DATA 	Keypress: down
+135.4086 	EXP 	polygon: autoDraw = False
+135.4086 	EXP 	grating: autoDraw = False
+135.4086 	EXP 	grating: ori = 4.0
+135.4086 	EXP 	polygon: autoDraw = True
+136.4079 	EXP 	polygon: autoDraw = False
+136.4079 	EXP 	grating: autoDraw = True
+136.7076 	EXP 	grating: autoDraw = False
+137.2289 	EXP 	New trial (rep=48, index=0): None
+137.2321 	DATA 	Keypress: down
+137.2406 	EXP 	polygon: autoDraw = False
+137.2406 	EXP 	grating: autoDraw = False
+137.2406 	EXP 	grating: ori = 0.0
+137.2406 	EXP 	polygon: autoDraw = True
+138.2394 	EXP 	grating: autoDraw = True
+138.2560 	EXP 	polygon: autoDraw = False
+138.5392 	EXP 	grating: autoDraw = False
+138.8775 	EXP 	New trial (rep=49, index=0): None
+138.8807 	DATA 	Keypress: up
+138.8890 	EXP 	polygon: autoDraw = False
+138.8890 	EXP 	grating: autoDraw = False
+138.8890 	EXP 	grating: ori = 0.0
+138.8890 	EXP 	polygon: autoDraw = True
+139.8879 	EXP 	grating: autoDraw = True
+139.9046 	EXP 	polygon: autoDraw = False
+140.1877 	EXP 	grating: autoDraw = False
+140.4425 	EXP 	New trial (rep=50, index=0): None
+140.4457 	DATA 	Keypress: up
+140.4540 	EXP 	polygon: autoDraw = False
+140.4540 	EXP 	grating: autoDraw = False
+140.4540 	EXP 	grating: ori = -3.0
+140.4540 	EXP 	polygon: autoDraw = True
+141.4532 	EXP 	grating: autoDraw = True
+141.4699 	EXP 	polygon: autoDraw = False
+141.7528 	EXP 	grating: autoDraw = False
+142.1083 	EXP 	New trial (rep=51, index=0): None
+142.1114 	DATA 	Keypress: down
+142.1190 	EXP 	polygon: autoDraw = False
+142.1190 	EXP 	grating: autoDraw = False
+142.1190 	EXP 	grating: ori = 0.0
+142.1190 	EXP 	polygon: autoDraw = True
+143.1184 	EXP 	polygon: autoDraw = False
+143.1184 	EXP 	grating: autoDraw = True
+143.4179 	EXP 	grating: autoDraw = False
+143.8227 	EXP 	New trial (rep=52, index=0): None
+143.8260 	DATA 	Keypress: up
+143.8342 	EXP 	polygon: autoDraw = False
+143.8342 	EXP 	grating: autoDraw = False
+143.8342 	EXP 	grating: ori = 0.0
+143.8342 	EXP 	polygon: autoDraw = True
+144.8335 	EXP 	polygon: autoDraw = False
+144.8335 	EXP 	grating: autoDraw = True
+145.1330 	EXP 	grating: autoDraw = False
+145.5018 	DATA 	Keypress: up
+145.5212 	EXP 	New trial (rep=53, index=0): None
+145.5326 	EXP 	polygon: autoDraw = False
+145.5326 	EXP 	grating: autoDraw = False
+145.5326 	EXP 	grating: ori = 0.0
+145.5326 	EXP 	polygon: autoDraw = True
+146.5317 	EXP 	polygon: autoDraw = False
+146.5317 	EXP 	grating: autoDraw = True
+146.8313 	EXP 	grating: autoDraw = False
+147.2203 	EXP 	New trial (rep=54, index=0): None
+147.2237 	DATA 	Keypress: up
+147.2310 	EXP 	polygon: autoDraw = False
+147.2310 	EXP 	grating: autoDraw = False
+147.2310 	EXP 	grating: ori = 0.0
+147.2310 	EXP 	polygon: autoDraw = True
+148.2301 	EXP 	polygon: autoDraw = False
+148.2301 	EXP 	grating: autoDraw = True
+148.5297 	EXP 	grating: autoDraw = False
+149.6511 	EXP 	New trial (rep=55, index=0): None
+149.6543 	DATA 	Keypress: down
+149.6621 	EXP 	polygon: autoDraw = False
+149.6621 	EXP 	grating: autoDraw = False
+149.6621 	EXP 	grating: ori = -3.0
+149.6621 	EXP 	polygon: autoDraw = True
+150.6612 	EXP 	polygon: autoDraw = False
+150.6612 	EXP 	grating: autoDraw = True
+150.9608 	EXP 	grating: autoDraw = False
+151.3162 	EXP 	New trial (rep=56, index=0): None
+151.3194 	DATA 	Keypress: down
+151.3273 	EXP 	polygon: autoDraw = False
+151.3273 	EXP 	grating: autoDraw = False
+151.3273 	EXP 	grating: ori = 0.0
+151.3273 	EXP 	polygon: autoDraw = True
+152.3265 	EXP 	polygon: autoDraw = False
+152.3265 	EXP 	grating: autoDraw = True
+152.6261 	EXP 	grating: autoDraw = False
+152.9309 	EXP 	New trial (rep=57, index=0): None
+152.9344 	DATA 	Keypress: up
+152.9424 	EXP 	polygon: autoDraw = False
+152.9424 	EXP 	grating: autoDraw = False
+152.9424 	EXP 	grating: ori = 0.0
+152.9424 	EXP 	polygon: autoDraw = True
+153.9415 	EXP 	grating: autoDraw = True
+153.9582 	EXP 	polygon: autoDraw = False
+154.2410 	EXP 	grating: autoDraw = False
+154.5792 	EXP 	New trial (rep=58, index=0): None
+154.5827 	DATA 	Keypress: up
+154.5907 	EXP 	polygon: autoDraw = False
+154.5907 	EXP 	grating: autoDraw = False
+154.5907 	EXP 	grating: ori = -2.0
+154.5907 	EXP 	polygon: autoDraw = True
+155.5905 	EXP 	polygon: autoDraw = False
+155.5905 	EXP 	grating: autoDraw = True
+155.8896 	EXP 	grating: autoDraw = False
+156.3282 	EXP 	New trial (rep=59, index=0): None
+156.3314 	DATA 	Keypress: down
+156.3392 	EXP 	polygon: autoDraw = False
+156.3392 	EXP 	grating: autoDraw = False
+156.3392 	EXP 	grating: ori = 0.0
+156.3392 	EXP 	polygon: autoDraw = True
+157.3383 	EXP 	grating: autoDraw = True
+157.3552 	EXP 	polygon: autoDraw = False
+157.6380 	EXP 	grating: autoDraw = False
+158.1427 	EXP 	New trial (rep=60, index=0): None
+158.1462 	DATA 	Keypress: up
+158.1542 	EXP 	polygon: autoDraw = False
+158.1542 	EXP 	grating: autoDraw = False
+158.1542 	EXP 	grating: ori = -2.0
+158.1542 	EXP 	polygon: autoDraw = True
+159.1534 	EXP 	polygon: autoDraw = False
+159.1534 	EXP 	grating: autoDraw = True
+159.4530 	EXP 	grating: autoDraw = False
+160.3717 	DATA 	Keypress: up
+160.3915 	EXP 	New trial (rep=61, index=0): None
+160.4023 	EXP 	polygon: autoDraw = False
+160.4023 	EXP 	grating: autoDraw = False
+160.4023 	EXP 	grating: ori = 0.0
+160.4023 	EXP 	polygon: autoDraw = True
+161.4012 	EXP 	grating: autoDraw = True
+161.4178 	EXP 	polygon: autoDraw = False
+161.7009 	EXP 	grating: autoDraw = False
+162.0400 	EXP 	New trial (rep=62, index=0): None
+162.0435 	DATA 	Keypress: up
+162.0506 	EXP 	polygon: autoDraw = False
+162.0506 	EXP 	grating: autoDraw = False
+162.0506 	EXP 	grating: ori = -5.0
+162.0506 	EXP 	polygon: autoDraw = True
+163.0498 	EXP 	grating: autoDraw = True
+163.0664 	EXP 	polygon: autoDraw = False
+163.3495 	EXP 	grating: autoDraw = False
+163.6706 	EXP 	New trial (rep=63, index=0): None
+163.6737 	DATA 	Keypress: down
+163.6825 	EXP 	polygon: autoDraw = False
+163.6825 	EXP 	grating: autoDraw = False
+163.6825 	EXP 	grating: ori = 0.0
+163.6825 	EXP 	polygon: autoDraw = True
+164.6815 	EXP 	polygon: autoDraw = False
+164.6815 	EXP 	grating: autoDraw = True
+164.9812 	EXP 	grating: autoDraw = False
+165.3195 	EXP 	New trial (rep=64, index=0): None
+165.3232 	DATA 	Keypress: up
+165.3309 	EXP 	polygon: autoDraw = False
+165.3309 	EXP 	grating: autoDraw = False
+165.3309 	EXP 	grating: ori = 0.0
+165.3309 	EXP 	polygon: autoDraw = True
+166.3301 	EXP 	grating: autoDraw = True
+166.3467 	EXP 	polygon: autoDraw = False
+166.6295 	EXP 	grating: autoDraw = False
+167.0345 	EXP 	New trial (rep=65, index=0): None
+167.0378 	DATA 	Keypress: up
+167.0459 	EXP 	polygon: autoDraw = False
+167.0459 	EXP 	grating: autoDraw = False
+167.0459 	EXP 	grating: ori = 0.0
+167.0459 	EXP 	polygon: autoDraw = True
+168.0450 	EXP 	polygon: autoDraw = False
+168.0450 	EXP 	grating: autoDraw = True
+168.3448 	EXP 	grating: autoDraw = False
+168.7837 	DATA 	Keypress: up
+168.7996 	EXP 	New trial (rep=66, index=0): None
+168.8111 	EXP 	polygon: autoDraw = False
+168.8111 	EXP 	grating: autoDraw = False
+168.8111 	EXP 	grating: ori = 0.0
+168.8111 	EXP 	polygon: autoDraw = True
+169.8101 	EXP 	grating: autoDraw = True
+169.8269 	EXP 	polygon: autoDraw = False
+170.1097 	EXP 	grating: autoDraw = False
+170.4816 	EXP 	New trial (rep=67, index=0): None
+170.4848 	DATA 	Keypress: up
+170.4928 	EXP 	polygon: autoDraw = False
+170.4928 	EXP 	grating: autoDraw = False
+170.4928 	EXP 	grating: ori = -4.0
+170.4928 	EXP 	polygon: autoDraw = True
+171.4922 	EXP 	polygon: autoDraw = False
+171.4922 	EXP 	grating: autoDraw = True
+171.7917 	EXP 	grating: autoDraw = False
+172.1966 	EXP 	New trial (rep=68, index=0): None
+172.2001 	DATA 	Keypress: down
+172.2079 	EXP 	polygon: autoDraw = False
+172.2079 	EXP 	grating: autoDraw = False
+172.2079 	EXP 	grating: ori = 0.0
+172.2079 	EXP 	polygon: autoDraw = True
+173.2069 	EXP 	grating: autoDraw = True
+173.2237 	EXP 	polygon: autoDraw = False
+173.5068 	EXP 	grating: autoDraw = False
+174.0948 	EXP 	New trial (rep=69, index=0): None
+174.0980 	DATA 	Keypress: up
+174.1059 	EXP 	polygon: autoDraw = False
+174.1059 	EXP 	grating: autoDraw = False
+174.1059 	EXP 	grating: ori = -5.0
+174.1059 	EXP 	polygon: autoDraw = True
+175.1054 	EXP 	polygon: autoDraw = False
+175.1054 	EXP 	grating: autoDraw = True
+175.4047 	EXP 	grating: autoDraw = False
+175.7103 	EXP 	New trial (rep=70, index=0): None
+175.7136 	DATA 	Keypress: down
+175.7211 	EXP 	polygon: autoDraw = False
+175.7211 	EXP 	grating: autoDraw = False
+175.7211 	EXP 	grating: ori = 4.0
+175.7211 	EXP 	polygon: autoDraw = True
+176.7204 	EXP 	polygon: autoDraw = False
+176.7204 	EXP 	grating: autoDraw = True
+177.0195 	EXP 	grating: autoDraw = False
+177.3920 	EXP 	New trial (rep=71, index=0): None
+177.3952 	DATA 	Keypress: down
+177.4031 	EXP 	polygon: autoDraw = False
+177.4031 	EXP 	grating: autoDraw = False
+177.4031 	EXP 	grating: ori = 1.0
+177.4031 	EXP 	polygon: autoDraw = True
+178.4023 	EXP 	grating: autoDraw = True
+178.4188 	EXP 	polygon: autoDraw = False
+178.7016 	EXP 	grating: autoDraw = False
+179.0573 	EXP 	New trial (rep=72, index=0): None
+179.0613 	DATA 	Keypress: up
+179.0690 	EXP 	polygon: autoDraw = False
+179.0690 	EXP 	grating: autoDraw = False
+179.0690 	EXP 	grating: ori = 1.0
+179.0690 	EXP 	polygon: autoDraw = True
+180.0672 	EXP 	grating: autoDraw = True
+180.0840 	EXP 	polygon: autoDraw = False
+180.3668 	EXP 	grating: autoDraw = False
+180.7717 	EXP 	New trial (rep=73, index=0): None
+180.7751 	DATA 	Keypress: up
+180.7832 	EXP 	polygon: autoDraw = False
+180.7832 	EXP 	grating: autoDraw = False
+180.7832 	EXP 	grating: ori = 0.0
+180.7832 	EXP 	polygon: autoDraw = True
+181.7826 	EXP 	polygon: autoDraw = False
+181.7826 	EXP 	grating: autoDraw = True
+182.0820 	EXP 	grating: autoDraw = False
+182.5034 	EXP 	New trial (rep=74, index=0): None
+182.5070 	DATA 	Keypress: up
+182.5146 	EXP 	polygon: autoDraw = False
+182.5146 	EXP 	grating: autoDraw = False
+182.5146 	EXP 	grating: ori = -2.0
+182.5146 	EXP 	polygon: autoDraw = True
+183.5142 	EXP 	polygon: autoDraw = False
+183.5142 	EXP 	grating: autoDraw = True
+183.8138 	EXP 	grating: autoDraw = False
+184.3687 	EXP 	New trial (rep=75, index=0): None
+184.3722 	DATA 	Keypress: down
+184.3800 	EXP 	polygon: autoDraw = False
+184.3800 	EXP 	grating: autoDraw = False
+184.3800 	EXP 	grating: ori = 0.0
+184.3800 	EXP 	polygon: autoDraw = True
+185.3791 	EXP 	grating: autoDraw = True
+185.3957 	EXP 	polygon: autoDraw = False
+185.6786 	EXP 	grating: autoDraw = False
+185.9165 	EXP 	New trial (rep=76, index=0): None
+185.9195 	DATA 	Keypress: down
+185.9283 	EXP 	polygon: autoDraw = False
+185.9283 	EXP 	grating: autoDraw = False
+185.9283 	EXP 	grating: ori = 0.0
+185.9283 	EXP 	polygon: autoDraw = True
+186.9275 	EXP 	polygon: autoDraw = False
+186.9275 	EXP 	grating: autoDraw = True
+187.2272 	EXP 	grating: autoDraw = False
+187.6315 	EXP 	New trial (rep=77, index=0): None
+187.6347 	DATA 	Keypress: up
+187.6435 	EXP 	polygon: autoDraw = False
+187.6435 	EXP 	grating: autoDraw = False
+187.6435 	EXP 	grating: ori = -5.0
+187.6435 	EXP 	polygon: autoDraw = True
+188.6427 	EXP 	polygon: autoDraw = False
+188.6427 	EXP 	grating: autoDraw = True
+188.9423 	EXP 	grating: autoDraw = False
+190.0298 	EXP 	New trial (rep=78, index=0): None
+190.0334 	DATA 	Keypress: down
+190.0413 	EXP 	polygon: autoDraw = False
+190.0413 	EXP 	grating: autoDraw = False
+190.0413 	EXP 	grating: ori = 0.0
+190.0413 	EXP 	polygon: autoDraw = True
+191.0405 	EXP 	polygon: autoDraw = False
+191.0405 	EXP 	grating: autoDraw = True
+191.3401 	EXP 	grating: autoDraw = False
+191.7115 	EXP 	New trial (rep=79, index=0): None
+191.7147 	DATA 	Keypress: down
+191.7230 	EXP 	polygon: autoDraw = False
+191.7230 	EXP 	grating: autoDraw = False
+191.7230 	EXP 	grating: ori = 0.0
+191.7230 	EXP 	polygon: autoDraw = True
+192.7223 	EXP 	polygon: autoDraw = False
+192.7223 	EXP 	grating: autoDraw = True
+193.0217 	EXP 	grating: autoDraw = False
+193.6089 	EXP 	New trial (rep=80, index=0): None
+193.6115 	DATA 	Keypress: up
+193.6213 	EXP 	polygon: autoDraw = False
+193.6213 	EXP 	grating: autoDraw = False
+193.6213 	EXP 	grating: ori = 4.0
+193.6213 	EXP 	polygon: autoDraw = True
+194.6205 	EXP 	grating: autoDraw = True
+194.6372 	EXP 	polygon: autoDraw = False
+194.9199 	EXP 	grating: autoDraw = False
+195.3090 	EXP 	New trial (rep=81, index=0): None
+195.3122 	DATA 	Keypress: down
+195.3197 	EXP 	polygon: autoDraw = False
+195.3197 	EXP 	grating: autoDraw = False
+195.3197 	EXP 	grating: ori = 2.0
+195.3197 	EXP 	polygon: autoDraw = True
+196.3188 	EXP 	polygon: autoDraw = False
+196.3188 	EXP 	grating: autoDraw = True
+196.6184 	EXP 	grating: autoDraw = False
+197.0711 	DATA 	Keypress: down
+197.0904 	EXP 	New trial (rep=82, index=0): None
+197.1014 	EXP 	polygon: autoDraw = False
+197.1014 	EXP 	grating: autoDraw = False
+197.1014 	EXP 	grating: ori = 0.0
+197.1014 	EXP 	polygon: autoDraw = True
+198.1005 	EXP 	grating: autoDraw = True
+198.1173 	EXP 	polygon: autoDraw = False
+198.4001 	EXP 	grating: autoDraw = False
+199.1217 	EXP 	New trial (rep=83, index=0): None
+199.1252 	DATA 	Keypress: down
+199.1327 	EXP 	polygon: autoDraw = False
+199.1327 	EXP 	grating: autoDraw = False
+199.1327 	EXP 	grating: ori = 0.0
+199.1327 	EXP 	polygon: autoDraw = True
+200.1320 	EXP 	polygon: autoDraw = False
+200.1320 	EXP 	grating: autoDraw = True
+200.4316 	EXP 	grating: autoDraw = False
+200.8182 	DATA 	Keypress: up
+200.8365 	EXP 	New trial (rep=84, index=0): None
+200.8481 	EXP 	polygon: autoDraw = False
+200.8481 	EXP 	grating: autoDraw = False
+200.8481 	EXP 	grating: ori = 0.0
+200.8481 	EXP 	polygon: autoDraw = True
+201.8469 	EXP 	grating: autoDraw = True
+201.8638 	EXP 	polygon: autoDraw = False
+202.1463 	EXP 	grating: autoDraw = False
+202.7516 	EXP 	New trial (rep=85, index=0): None
+202.7549 	DATA 	Keypress: up
+202.7630 	EXP 	polygon: autoDraw = False
+202.7630 	EXP 	grating: autoDraw = False
+202.7630 	EXP 	grating: ori = 0.0
+202.7630 	EXP 	polygon: autoDraw = True
+203.7620 	EXP 	grating: autoDraw = True
+203.7787 	EXP 	polygon: autoDraw = False
+204.0616 	EXP 	grating: autoDraw = False
+204.9656 	EXP 	New trial (rep=86, index=0): None
+204.9685 	DATA 	Keypress: up
+204.9776 	EXP 	polygon: autoDraw = False
+204.9776 	EXP 	grating: autoDraw = False
+204.9776 	EXP 	grating: ori = 3.0
+204.9776 	EXP 	polygon: autoDraw = True
+205.9766 	EXP 	grating: autoDraw = True
+205.9934 	EXP 	polygon: autoDraw = False
+206.2762 	EXP 	grating: autoDraw = False
+206.3812 	EXP 	New trial (rep=87, index=0): None
+206.3844 	DATA 	Keypress: down
+206.3926 	EXP 	polygon: autoDraw = False
+206.3926 	EXP 	grating: autoDraw = False
+206.3926 	EXP 	grating: ori = -3.0
+206.3926 	EXP 	polygon: autoDraw = True
+207.3918 	EXP 	polygon: autoDraw = False
+207.3918 	EXP 	grating: autoDraw = True
+207.6916 	EXP 	grating: autoDraw = False
+208.1472 	EXP 	New trial (rep=88, index=0): None
+208.1503 	DATA 	Keypress: down
+208.1577 	EXP 	polygon: autoDraw = False
+208.1577 	EXP 	grating: autoDraw = False
+208.1577 	EXP 	grating: ori = 0.0
+208.1577 	EXP 	polygon: autoDraw = True
+209.1570 	EXP 	polygon: autoDraw = False
+209.1570 	EXP 	grating: autoDraw = True
+209.4565 	EXP 	grating: autoDraw = False
+209.7282 	EXP 	New trial (rep=89, index=0): None
+209.7335 	DATA 	Keypress: down
+209.7396 	EXP 	polygon: autoDraw = False
+209.7396 	EXP 	grating: autoDraw = False
+209.7396 	EXP 	grating: ori = 0.0
+209.7396 	EXP 	polygon: autoDraw = True
+210.7388 	EXP 	polygon: autoDraw = False
+210.7388 	EXP 	grating: autoDraw = True
+211.0386 	EXP 	grating: autoDraw = False
+211.2946 	EXP 	New trial (rep=90, index=0): None
+211.2980 	DATA 	Keypress: up
+211.3048 	EXP 	polygon: autoDraw = False
+211.3048 	EXP 	grating: autoDraw = False
+211.3048 	EXP 	grating: ori = -4.0
+211.3048 	EXP 	polygon: autoDraw = True
+212.3040 	EXP 	polygon: autoDraw = False
+212.3040 	EXP 	grating: autoDraw = True
+212.6035 	EXP 	grating: autoDraw = False
+213.1250 	EXP 	New trial (rep=91, index=0): None
+213.1283 	DATA 	Keypress: down
+213.1364 	EXP 	polygon: autoDraw = False
+213.1364 	EXP 	grating: autoDraw = False
+213.1364 	EXP 	grating: ori = -5.0
+213.1364 	EXP 	polygon: autoDraw = True
+214.1360 	EXP 	polygon: autoDraw = False
+214.1360 	EXP 	grating: autoDraw = True
+214.4354 	EXP 	grating: autoDraw = False
+214.6735 	EXP 	New trial (rep=92, index=0): None
+214.6765 	DATA 	Keypress: down
+214.6852 	EXP 	polygon: autoDraw = False
+214.6852 	EXP 	grating: autoDraw = False
+214.6852 	EXP 	grating: ori = 0.0
+214.6852 	EXP 	polygon: autoDraw = True
+215.6842 	EXP 	grating: autoDraw = True
+215.7008 	EXP 	polygon: autoDraw = False
+215.9838 	EXP 	grating: autoDraw = False
+216.4723 	EXP 	New trial (rep=93, index=0): None
+216.4754 	DATA 	Keypress: up
+216.4833 	EXP 	polygon: autoDraw = False
+216.4833 	EXP 	grating: autoDraw = False
+216.4833 	EXP 	grating: ori = 4.0
+216.4833 	EXP 	polygon: autoDraw = True
+217.4826 	EXP 	polygon: autoDraw = False
+217.4826 	EXP 	grating: autoDraw = True
+217.7821 	EXP 	grating: autoDraw = False
+218.0043 	EXP 	New trial (rep=94, index=0): None
+218.0076 	DATA 	Keypress: down
+218.0155 	EXP 	polygon: autoDraw = False
+218.0155 	EXP 	grating: autoDraw = False
+218.0155 	EXP 	grating: ori = 2.0
+218.0155 	EXP 	polygon: autoDraw = True
+219.0145 	EXP 	grating: autoDraw = True
+219.0313 	EXP 	polygon: autoDraw = False
+219.3141 	EXP 	grating: autoDraw = False
+219.8331 	DATA 	Keypress: down
+219.8518 	EXP 	New trial (rep=95, index=0): None
+219.8636 	EXP 	polygon: autoDraw = False
+219.8636 	EXP 	grating: autoDraw = False
+219.8636 	EXP 	grating: ori = 0.0
+219.8636 	EXP 	polygon: autoDraw = True
+220.8626 	EXP 	grating: autoDraw = True
+220.8795 	EXP 	polygon: autoDraw = False
+221.1623 	EXP 	grating: autoDraw = False
+221.6164 	EXP 	New trial (rep=96, index=0): None
+221.6195 	DATA 	Keypress: up
+221.6288 	EXP 	polygon: autoDraw = False
+221.6288 	EXP 	grating: autoDraw = False
+221.6288 	EXP 	grating: ori = 0.0
+221.6288 	EXP 	polygon: autoDraw = True
+222.6279 	EXP 	grating: autoDraw = True
+222.6446 	EXP 	polygon: autoDraw = False
+222.9273 	EXP 	grating: autoDraw = False
+223.3489 	EXP 	New trial (rep=97, index=0): None
+223.3521 	DATA 	Keypress: up
+223.3604 	EXP 	polygon: autoDraw = False
+223.3604 	EXP 	grating: autoDraw = False
+223.3604 	EXP 	grating: ori = -5.0
+223.3604 	EXP 	polygon: autoDraw = True
+224.3594 	EXP 	grating: autoDraw = True
+224.3762 	EXP 	polygon: autoDraw = False
+224.6591 	EXP 	grating: autoDraw = False
+225.3470 	EXP 	New trial (rep=98, index=0): None
+225.3502 	DATA 	Keypress: down
+225.3586 	EXP 	polygon: autoDraw = False
+225.3586 	EXP 	grating: autoDraw = False
+225.3586 	EXP 	grating: ori = 0.0
+225.3586 	EXP 	polygon: autoDraw = True
+226.3576 	EXP 	grating: autoDraw = True
+226.3743 	EXP 	polygon: autoDraw = False
+226.6570 	EXP 	grating: autoDraw = False
+227.2949 	EXP 	New trial (rep=99, index=0): None
+227.2980 	DATA 	Keypress: up
+227.3064 	EXP 	polygon: autoDraw = False
+227.3064 	EXP 	grating: autoDraw = False
+227.3064 	EXP 	grating: ori = -4.0
+227.3064 	EXP 	polygon: autoDraw = True
+228.3059 	EXP 	polygon: autoDraw = False
+228.3059 	EXP 	grating: autoDraw = True
+228.6052 	EXP 	grating: autoDraw = False
+229.2273 	DATA 	Keypress: down
+229.2380 	EXP 	polygon: autoDraw = False
+229.2380 	EXP 	grating: autoDraw = False
+229.7002 	EXP 	window1: mouseVisible = True
